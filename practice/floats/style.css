@@ -1,0 +1,97 @@
+body {
+	background: #4d79ff;
+}
+header, nav, main, aside, article, section, aside, footer, li, ul {
+	border: 1px solid white;
+	margin: 10px;
+	border-radius: 9px;
+	text-align: center;
+	color: azure;
+}
+nav, header, main, aside {
+	float: left;
+}
+main {
+	border-style: dashed;
+}
+nav {
+	width: 24%;
+	height: 722px;
+}
+header {
+	width: 70%;
+	height: 200px;
+}
+main {
+	width: 46.5%;
+	height: 500px;
+}
+aside {
+	width: 22%;
+	height: 500px;
+}
+li {
+	list-style: none;
+	display: block;
+	width: 85%;
+	height: 50px;
+	margin: 10px auto;
+}
+li > div {
+	margin: 5% auto;
+}
+ul {
+	display: block;
+	width: 85%;
+	list-style-type: none;
+	padding: 0 0 30px 0;
+	margin: auto;
+}
+section, article, footer {
+	float: left;
+	display: block;
+	margin: 10px 2%;
+}
+section {
+	width: 95%;
+	height: 35%
+}
+article {
+	width: 45.5%;
+	height: 33%;
+}
+footer {
+	height: 19%;
+	width: 95%;
+}
+footer > div {
+	margin: 5% auto;
+}
+aside > div {
+	margin: 72% auto;
+}
+h1 {
+	margin: 82px auto;
+}
+div {;
+	width: 20%;
+	margin: 7% auto;
+	font-size: 1.5rem;
+}
+li > div {
+	font-size: 1.2rem;
+}
+ul > div {
+	margin: 5% auto;
+}
+section > div {
+	width: 12%;
+	height: 30px;
+	float: left;
+	margin: 5px 1%;
+	border: 1px solid white;
+	border-radius: 9px
+}
+h5 {
+	margin: 4% auto;
+}

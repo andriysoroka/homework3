@@ -1,0 +1,446 @@
+
+
+
+
+
+body {
+	/*background: url("https://www.useallfive.com/assets/img/hologram.jpg"); 
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	can use image*/
+	background: linear-gradient(to right, #BDB1B6, #DFCAAE, #9FE2EB);
+	margin: 0;
+}
+header {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	margin: 70px 0  0;
+	text-align: right;
+	font-size: 3rem;
+	padding: 70px 7% 65px 0;
+}
+.logo-img {
+	width: 102px;
+	position: absolute;
+	left: 148px;
+	top: 91px;
+	z-index: 2;
+}
+.logo-img-text {
+	width: 220px;
+	position: absolute;
+	left: 90px;
+	top: 50px;
+	z-index: 1;
+	transform: rotate(180deg);
+	transition: width 2s, height 2s, transform 2s;
+	z-index: 2;
+}
+.logo-img-text:hover {
+	transform: rotate(-180deg);
+}
+nav {
+	background: white;
+	height: 245px;
+	width: 100%;
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+nav > ul {
+	width: 90%;
+	margin: auto;
+	padding: 0;
+	background: red;
+}
+.nav > li {
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+	padding: 10px;
+	margin: 20px 10px;
+	font-size: 1.3rem;
+	border: 1px solid transparent;
+	transition: border-color, width, 1.5s ease;
+}
+.nav li:nth-child(2) {
+	border-bottom: 1px solid black;
+}
+.nav li:hover {
+	border-bottom: 1px solid black;
+}
+main{
+	width: 100%;
+	background: white;
+	position: relative;
+}
+.us {
+	font-family: 'Righteous';
+	position: relative;
+	padding-top: 100px;
+	padding-bottom: 90px;
+	font-size: 3.2rem;
+	margin: 0;
+	padding-left: 90px;
+	top: 100px;
+	z-index: 5;
+
+}
+.first {
+	position: relative;
+	width: 40%;
+	left: 52%;
+	font-size: 1.1rem;
+	margin: 150px 0 100px;
+}
+.second {
+	width: 90%;
+	height: 1200px;
+	margin: auto;
+	position: relative;
+}
+.second > h2 {
+	font-family: 'Orbitron';
+	width: 600px;
+	font-size: 2.6rem;
+	margin: 0 0 0 100px;
+	z-index: 3;
+	position: relative;
+}
+.arow {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: -15px;
+	left: 35px;
+}
+.first-pictures {
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: -200px;
+}
+.img-water {
+	background: url("https://api.ua5.land/wp-content/uploads/2017/02/water.png");
+	background-size: 100%; 
+	background-repeat: no-repeat;
+	height: 90%;
+	width: 44%;
+	position: absolute;
+	top: 125px;
+	right: 140px;
+	max-height: 800px;
+}
+.some-guys {
+	background: url("https://api.ua5.land/wp-content/uploads/2017/02/UA5_LeviJason.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	position: absolute;
+	top: 300px;
+	left: 200px;
+	height: 70%;
+	width: 40%;
+}
+.first-pictures {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.par {
+	position: absolute;
+	top: 900px;
+	right: 0;
+	width: 44%;
+	font-size: 1.25rem;
+	margin: 50px 0;
+}
+.third {
+	width: 100%;
+	height: 700px;
+	position: relative;
+	background: white;
+}
+.people-img {
+	background: url("https://api.ua5.land/wp-content/uploads/2017/02/protest.png");
+	background-repeat: no-repeat;
+	background-size: 100%;  
+	width: 35%;
+	height: 80%;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	left: 7%;
+	top: -2.7%;
+}
+.view-img {
+	background: url("https://api.ua5.land/wp-content/uploads/2017/02/posit-notes.png");
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	width: 26%;
+	height: 35%;
+	position: absolute;
+	right: 8%;
+	top: 9%;
+}
+.third > h3 {
+	width: 40%;
+	position: absolute;
+	bottom: 25%;
+	right: 9%
+}
+.third > p {
+	width: 40%;
+	position: absolute;
+	bottom: 16%;
+	right: 9%;
+}
+.fourth {
+	width: 100%;
+	height: 800px;
+	position: relative;
+	background: white;
+}
+.fourth > h2 {
+	width: 55%;
+	margin-left: 7%;
+	font-size: 2.5rem;
+	margin-top: 0;
+}
+.lists {
+	widows: 100%;
+	margin: 0;
+	padding: 0;
+}
+.list {
+	text-align: center;
+	width: 33%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.list > li {
+	margin: 20px 15px;
+}
+.list > .arrow-down {
+	display: block;
+	background: url("image/down_filled1600.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+	margin: auto;
+}
+.list li:nth-child(1) {
+	font-size: 2rem;
+}
+li {
+	list-style-type: none;
+}
+.fifth {
+	width: 100%;
+	height: 650px;
+	background: white;
+	position: relative;
+}
+.fifth-article-img:nth-child(1) {
+	height: 75%;
+	width: 600px;
+	margin: 0 3% 0 5.5%;
+}
+.fifth-article-img:nth-child(2) {
+	width: 20%;
+	height: 30%;
+	margin: 0 0 3% 1%;
+}
+.fifth-section {
+	width: 40%;
+	position: relative;
+	left: 50%;
+}
+.sixth {
+	width: 100%;
+	height: 800px;
+	background: white;
+	position: relative;
+	z-index: 1;
+}
+.sixth > h2 {
+	margin: 0 13%;
+	padding: 50px 0 0 0;
+	width: 50%;
+	font-size: 2.2rem;
+	z-index: 3;
+}
+.sixth-img:nth-child(2) {
+	width: 30%;
+	height: 70%;
+	background: url("https://api.ua5.land/wp-content/uploads/2017/02/west-coast-palms.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 33%;;
+	top: 140px;
+	z-index: -1;
+	max-height: 600px;
+}
+.sixth-img:nth-child(3) {
+	background: url("https://api.ua5.land/wp-content/uploads/2017/02/67527646640135.58795b1d86b46-1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 30%;
+	position: absolute;
+	right: 20%;
+	top: 250px
+}
+.sixth > p{
+	border-bottom: 1px solid black;
+	text-align: center;
+	position: absolute;
+	bottom: 40px;
+	left: 45%;
+}
+p > a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.4rem;
+}
+footer {
+	width: 100%;
+	height: 3900px;
+	background: linear-gradient(to right, #BDB1B6, #DFCAAE, #9FE2EB);
+}
+footer > h2 {
+	margin: 0;
+	padding: 13% 20%;
+	font-size: 2.5rem;
+	text-align: center;
+	background:  linear-gradient(to right, #BDB1B6, #DFCAAE, #9FE2EB);
+	color: aliceblue;
+}
+.guys-info {
+	width: 100%;
+	height: 1800px;
+	color: white;
+}
+.guy {
+	width: 33%;
+	height: 450px;
+	float: left;
+	text-align: center;
+	margin: 10px 0;
+}
+.guy > h5 {
+	font-size: 1.45rem;
+	margin: 10px 0;
+}
+.guy > img {
+	width: 300px;
+	height: 300px;
+}
+.the-last {
+	margin: auto;
+	width: 90%;
+	border-bottom: 3px solid white;
+	padding-bottom: 180px;
+}
+.the-last {
+	text-align: center;
+}
+.the-last > h2 {
+	margin: 0;
+	padding: 13% 18%;
+	font-size: 2.5rem;
+	text-align: center;
+	color: aliceblue;
+}
+.work-with > img {
+	width: 23%;
+	height: 70px;
+	margin: 90px 50px;
+}
+.like-nav > a {
+	display: inline-block;
+	margin: 20px;
+	text-decoration: none;
+	border-bottom: 3px solid transparent;    
+    width: auto;
+    transition: 1s ease;
+    white-space: nowrap;
+	color: aliceblue;
+}
+.some-info  p:nth-child(1) {
+	text-align: center;
+	padding: 50px 0;
+}
+.Question > a {
+	color: aliceblue;
+	border-bottom: 1px solid white;
+	transition: 0.7s;
+}
+.Question > a:hover {
+	border-bottom: 2px solid white;
+}
+.some-info  p:nth-child(2) {
+	text-align: right;
+	width: 90%;
+	margin: auto;
+	border-bottom: 1px solid white;
+}
+.like-nav > .text-right {
+	position: relative;
+	right: 50%;
+}
+.like-nav > a:hover {
+    border-bottom: 3px solid white;
+	width: auto;
+}
+.the-last:nth-child(1) {
+	border-bottom: none;
+}
+.lol {
+	width: 33%;
+	float: left;
+	text-align: left;
+}
+.lol > a {
+	color: aliceblue;
+	transition: border-color, 1.5s ease;
+}
+.lol > a:hover {
+	border-bottom: 1px solid white;
+}
+.adress > p{
+	color: aliceblue;
+	font-size: 1.3rem;
+	margin: 50px 5%;
+}
+.social {
+	width: 100px;
+	height: 50px;
+	margin-left:  40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

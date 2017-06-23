@@ -1,0 +1,118 @@
+body {
+	background: #4d79ff;
+	display: grid;
+	width: 100%;
+	grid-template-columns: 23% 74%;
+ 	grid-auto-flow: row;
+}
+header, nav, main, aside, article, section, aside, footer, li, ul {
+	border: 1px solid white;
+	margin: 10px;
+	border-radius: 9px;
+	text-align: center;
+	color: azure;
+}
+.content {
+	display: grid;
+	width: 100%; 
+  	grid-template-columns: 2fr 1fr;
+  	grid-template-rows: [header-top] auto [header-bottom  main-top] 1fr [main-bottom];
+  	grid-template-areas: "banner    banner"
+					   "container menu";
+}
+header {
+    grid-column-start: banner-start;
+    grid-column-end: banner-end;
+    grid-row-start: header-top;
+    grid-row-end: header-bottom;
+}
+nav {
+	width: 90%;
+	height: 97.5%;
+}
+header {
+    grid-column-start: banner-start;
+    grid-column-end: banner-end;
+    grid-row-start: header-top;
+    grid-row-end: header-bottom;
+}
+main {
+	grid-row-start: header-bottom;
+    grid-row-end: main-bottom;
+	display: grid;
+  	grid-template-columns: 50% 50%;
+  	grid-template-rows: 34% 47% 19%;
+}
+section {
+	grid-column-start: 1;
+	grid-row-start: 1;
+  	grid-column-end: 5;
+	display: grid;
+	grid-template-columns: 16.3% 16.3% 16.3% 16.3% 16.3% 16.3%;
+    grid-template-rows: 35% 35%;
+    grid-auto-flow: row;
+}
+section > div {
+	margin: 5px 4%;
+	border: 1px solid white;
+	border-radius: 9px
+}*
+h5 {
+	margin: 4% auto;
+}
+li > div {
+	font-size: 1.2rem;
+	margin: 5% auto;
+}
+ul > div {
+	margin: 5% auto;
+}
+ul {
+	display: block;
+	width: 85%;
+	list-style-type: none;
+	padding: 0 0 30px 0;
+	margin: auto;
+}
+li {
+	list-style: none;
+	display: block;
+	width: 85%;
+	height: 50px;
+	margin: 10px auto;
+}
+article:nth-child(1) {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+}
+article:nth-child(2) {
+	grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+}
+footer {
+	grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+}
+aside {
+    grid-row-start: header-bottom;
+    grid-row-end: main-bottom;
+}
+article > div {
+	margin: 30% auto;
+	font-size: 1.5rem;
+}
+aside > div {
+	margin: 85% auto;
+	font-size: 1.5rem;
+}
+footer > div {
+	margin: 5% auto;
+	font-size: 1.5rem;
+}
+div > h5 {
+	margin: 10% auto;
+	font-size: 1.2rem;
+}
